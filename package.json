@@ -1,0 +1,42 @@
+{
+  "name": "reduxtodo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -p test/ && mocha --recursive --reporter mochawesome"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.15.0",
+    "chai": "^3.5.0",
+    "del": "^2.2.2",
+    "enzyme": "^2.4.1",
+    "extend": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-spawn-mocha": "^3.1.0",
+    "gulp-typescript": "^2.13.6",
+    "html-webpack-plugin": "^2.22.0",
+    "istanbul": "^0.4.5",
+    "jsdom": "^9.5.0",
+    "mocha-typescript": "^1.0.10",
+    "pug": "^2.0.0-beta6",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.7.0",
+    "webpack-hot-middleware": "^2.12.2"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2",
+    "mochawesome": "^1.5.2",
+    "pug-loader": "^2.3.0",
+    "react-addons-test-utils": "^15.3.2",
+    "ts-loader": "^0.8.2"
+  }
+}

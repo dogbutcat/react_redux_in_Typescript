@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "declaration": false,
+        "preserveConstEnums": true,
+        "jsx":"react",
+        "outDir": "./test/build"
+    },
+    "exclude":[
+        "test/reducer/example.test.ts",
+        "node_modules",
+        "typings"
+    ]
+}

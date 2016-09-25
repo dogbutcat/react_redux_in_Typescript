@@ -1,0 +1,29 @@
+{
+  "name": "reduxtodo",
+  "dependencies": {},
+  "globalDependencies": {
+    "browser-sync": "registry:dt/browser-sync#0.0.0+20160524142403",
+    "chai": "registry:dt/chai#3.4.0+20160601211834",
+    "chokidar": "registry:dt/chokidar#1.4.3+20160316155526",
+    "del": "registry:dt/del#2.2.0+20160317120654",
+    "enzyme": "registry:dt/enzyme#2.4.1+20160919072335",
+    "extend": "registry:dt/extend#2.0.0+20160316155526",
+    "gulp": "registry:dt/gulp#3.8.0+20160907112908",
+    "gulp-sourcemaps": "registry:dt/gulp-sourcemaps#0.0.0+20160316155526",
+    "gulp-typescript": "registry:dt/gulp-typescript#0.0.0+20160317120654",
+    "html-webpack-plugin": "registry:dt/html-webpack-plugin#2.22.2+20160802151720",
+    "istanbul": "registry:dt/istanbul#0.4.0+20160316155526",
+    "jsdom": "registry:dt/jsdom#2.0.0+20160906180921",
+    "micromatch": "registry:dt/micromatch#2.3.7+20160123140905",
+    "mocha": "registry:dt/mocha#2.2.5+20160720003353",
+    "node": "registry:dt/node#6.0.0+20160909174046",
+    "react": "registry:dt/react#0.14.0+20160829191040",
+    "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
+    "react-redux": "registry:dt/react-redux#4.4.0+20160908183346",
+    "redux": "registry:dt/redux#3.5.2+20160703092728",
+    "webpack": "registry:dt/webpack#1.12.9+20160724112410"
+  },
+  "globalDevDependencies": {
+    "react-addons-test-utils": "registry:dt/react-addons-test-utils#0.14.0+20160427035638"
+  }
+}
