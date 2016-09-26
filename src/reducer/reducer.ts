@@ -1,15 +1,16 @@
+import { TodoState } from './../constants/TodoConstants';
 import { combineReducers } from 'redux'
 import * as extend from 'extend';
 
-import {TodoActions,CreateTodo} from '../actions/TodoActions';
-import TodoConstants, {VisibilityFilters} from '../constants/TodoConstants';
+import * as TodoActions from '../actions/TodoActions';
+import TodoConstants, {VisibilityFilters,ITodo} from '../constants/TodoConstants';
 
-const todoApp = combineReducers({
+const todoApp = combineReducers<TodoState>({
     VisibilityFilter: setVisibilityFilter,
     todos: todos
 })
 
-function todos(state = [], action:TodoActions) {
+function todos(state = [], action:TodoActions.TodoActions) {
     switch (action.type) {
         case TodoConstants.CREATE:
             return [
@@ -30,7 +31,7 @@ function todos(state = [], action:TodoActions) {
     }
 }
 
-function setVisibilityFilter(state = VisibilityFilters.SHOW_ALL, action:TodoActions) {
+function setVisibilityFilter(state = VisibilityFilters.SHOW_ALL, action:TodoActions.TodoActions) {
     switch (action.type) {
         case TodoConstants.SET_VISIBILITY_FILTER:
             return action.filter;    

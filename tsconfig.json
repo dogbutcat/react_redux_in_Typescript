@@ -8,6 +8,10 @@
         "declaration": false,
         "preserveConstEnums": true,
         "jsx": "react",
+        "lib": [
+            "es5",
+            "es6"
+        ],
         "outDir": "./dist"
     }
 }

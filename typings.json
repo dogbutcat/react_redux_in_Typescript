@@ -17,7 +17,7 @@
     "micromatch": "registry:dt/micromatch#2.3.7+20160123140905",
     "mocha": "registry:dt/mocha#2.2.5+20160720003353",
     "node": "registry:dt/node#6.0.0+20160909174046",
-    "react": "registry:dt/react#0.14.0+20160829191040",
+    "react": "registry:dt/react#0.14.0+20160923124221",
     "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
     "react-redux": "registry:dt/react-redux#4.4.0+20160908183346",
     "redux": "registry:dt/redux#3.5.2+20160703092728",
